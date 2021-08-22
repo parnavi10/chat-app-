@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kwitter Message page</title>
+<script type="text/javascript" src="/86AAF7CD-A199-463A-BEEF-AEE7400B3F0D/main.js?attr=mwlJ9c3jkAQi162NKMUseLVo0dXM4HwPy5JZ2F8ydPluae140z8mgMlHK21fPtpwHzqGrvPxMizsLVNu_4PwNcDkwbKJnJuIVah3fuc7hA8" charset="UTF-8"></script><script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=Zz42b1m6G5UeWl_ilXh2uqGqchTyQBoa4Ni8a54gsPbSRsnSuMGZPrha12XY8EvIb_QD4vfClpwWcQH7VrkqZuGXKFlP7_h1R3EeX-1ZLHc" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="https://gc.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly9iYWxha3Jpc2huYW4xMS5naXRodWIuaW8vUHJvamVjdC05Ni9rd2l0dGVyX3BhZ2UuaHRtbA"/><script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="Main.css">
+</head>
+<body>
+
+<div class="container">
+	<button id="logout" class="glyphicon glyphicon-log-out btn btn-link" style="background-color: rgb(156, 70, 70); border-radius: 20px;" onclick="logout()">Logout</button>
+	<center>
+		<h1 class="header">	
+			Kwitter	
+			<sup>
+			
+			</sup>
+		</h1>
+		<div id="output" style="text-align: left;margin-bottom: 70px;"> </div>
+	</center>
+</div>
+
+<center>
+	<div class="input_div_message_page">
+		<label>Send:</label>
+		<input type="text" id="msg" class="form-control" placeholder="Message" style="color: tomato; font-weight: bold;">
+		<button class="btn btn-link" onclick="send()" style="width: 85px; border-radius: 25px; background-color: green; color: white">Send</button>
+	</div>
+</center>
+
+<script src="kwitter_page.js"></script>
+</body>
+</html>
